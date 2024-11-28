@@ -149,7 +149,7 @@ public class Algebra {
 		}
 		int num = 1;
 		int squerd = 1;
-		while (x != squerd) {
+		while (x >= squerd) {
 			num = ++num;
 			squerd = pow(num, 2);
 		}
