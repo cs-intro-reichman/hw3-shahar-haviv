@@ -119,9 +119,9 @@ public class Algebra {
 		int timesMultiply = 1;
 		int multiplyTester = x2;
 		while (x1 > multiplyTester + x2) {
+			timesMultiply = ++timesMultiply;
 			multiplyTester = times(x2, timesMultiply);
 			if (x1 > multiplyTester + x2) {
-				timesMultiply = ++timesMultiply;
 			} else {
 				break;
 			}
